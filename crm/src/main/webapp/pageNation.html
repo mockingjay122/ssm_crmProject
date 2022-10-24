@@ -1,0 +1,41 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--引用jquery框架-->
+    <script type="text/javascript" src="/jquery/jquery-1.11.1-min.js"></script>
+    <!--引用bootstrap框架-->
+    <link rel="stylesheet" href="/jquery/bootstrap_3.3.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="/jquery/bootstrap_3.3.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="/jquery/bs_pagination-master/css/jquery.bs_pagination.min.css">
+    <script type="text/javascript" src="/jquery/bs_pagination-master/js/jquery.bs_pagination.min.js"></script>
+    <script type="text/javascript" src="/jquery/bs_pagination-master/localization/en.js"></script>
+    <script type="text/javascript">
+        $(function (){
+            $("#pageStyle").bs_pagination({
+                totalPages:100, //总页数必填参数
+                currentPage:2,  //当前页
+                rowsPerPage:10 ,  //每页显示条数 ,相当于pageSize
+
+
+                visiblePageLinks: 10 , // 最多可以实现卡片数
+                showGoToPage: true, //默认true，是否显示跳转到
+                showRowsPerPage: true,//默认true，是否显示每页显示条数
+                showRowsInfo: false,//默认true，是否显示记录信息
+                onChangePage:function () {
+                    alert("aaa");
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="pageStyle">
+
+    </div>
+</body>
+</html>

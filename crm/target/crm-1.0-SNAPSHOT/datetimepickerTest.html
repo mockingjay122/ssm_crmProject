@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!--引用jquery框架-->
+    <script type="text/javascript" src="/jquery/jquery-1.11.1-min.js"></script>
+    <!--引用bootstrap框架-->
+    <link rel="stylesheet" href="/jquery/bootstrap_3.3.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="/jquery/bootstrap_3.3.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="/jquery/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css">
+    <script type="text/javascript" src="/jquery/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="/jquery/bootstrap-datetimepicker-master/locale/bootstrap-datetimepicker.zh-CN.js"></script>
+    <title>测试日历</title>
+    <script type="text/javascript">
+        $(function () {
+           $("#myDate").datetimepicker({
+               language:'zh-CN',
+               format:'yyyy-mm-dd',
+               minView:'month',
+               autoclose:true ,//默认是false,
+               initialDate:new Date(),
+               todayBtn:true,//默认是false,
+               clearBtn:true//默认是false,
+           });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="myDate" readonly="true">
+</body>
+</html>

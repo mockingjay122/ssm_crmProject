@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/settings/qx/index.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/settings/qx" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/activity/detail.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/activity" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/activity/index.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/activity" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/clue/convert.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/clue" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/clue/detail.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/clue" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/clue/index.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/clue" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/transaction/detail.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/transaction" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/transaction/index.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/transaction" />
+        <entry key="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/transaction/save.html" value="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/templates/workbench/transaction" />
+      </map>
+    </option>
+  </component>
+</project>
